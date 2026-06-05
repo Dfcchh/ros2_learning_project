@@ -1,0 +1,9 @@
+[0.011s] Invoking command in '/home/dfc/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dfc/chapt3/topic_ws/build/demo_cpp_topic -- -j8 -l8
+[0.031s] [31mCMake Error at CMakeLists.txt:18:
+[0.031s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.031s] 
+[0.031s] [0m
+[0.031s] -- Configuring incomplete, errors occurred!
+[0.031s] See also "/home/dfc/chapt3/topic_ws/build/demo_cpp_topic/CMakeFiles/CMakeOutput.log".
+[0.033s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.165s] Invoked command in '/home/dfc/chapt3/topic_ws/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dfc/chapt3/topic_ws/build/demo_cpp_topic -- -j8 -l8

@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:18:
+  Parse error.  Expected a command name, got right paren with text ")".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/dfc/chapt3/topic_ws/build/demo_cpp_topic/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
