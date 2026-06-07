@@ -1,0 +1,7 @@
+[01m[K/home/dfc/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dfc/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:9:32:[m[K [01;31m[Kerror: [m[K‘[01m[KfromString[m[K’ is not a member of ‘[01m[KQString[m[K’
+    9 |     QString message = QString::[01;31m[KfromString[m[K("Hello QT!");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:76：CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hello_qt.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,31 @@
+[0.015s] Invoking command in '/home/dfc/chapt3/topic_practice_ws/build/status_display': AMENT_PREFIX_PATH=/home/dfc/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfc/chapt3/topic_practice_ws/install/status_interfaces:/home/dfc/ros2_ws/install/wpr_simulation2:/home/dfc/ros2_ws/install/lidar_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/dfc/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dfc/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dfc/chapt3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/dfc/chapt3/topic_practice_ws/install/status_display
+[0.023s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.138s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.140s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.147s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.180s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.181s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.252s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.288s] -- Found status_interfaces: 0.0.0 (/home/dfc/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.301s] -- Configuring incomplete, errors occurred!
+[0.301s] See also "/home/dfc/chapt3/topic_practice_ws/build/status_display/CMakeFiles/CMakeOutput.log".
+[0.301s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.301s]   By not providing "FindQT5.cmake" in CMAKE_MODULE_PATH this project has
+[0.302s]   asked CMake to find a package configuration file provided by "QT5", but
+[0.302s]   CMake did not find one.
+[0.302s] 
+[0.302s]   Could not find a package configuration file provided by "QT5" with any of
+[0.302s]   the following names:
+[0.302s] 
+[0.302s]     QT5Config.cmake
+[0.302s]     qt5-config.cmake
+[0.302s] 
+[0.302s]   Add the installation prefix of "QT5" to CMAKE_PREFIX_PATH or set "QT5_DIR"
+[0.302s]   to a directory containing one of the above files.  If "QT5" provides a
+[0.302s]   separate development package or SDK, be sure it has been installed.
+[0.302s] 
+[0.302s] [0m
+[0.308s] Invoked command in '/home/dfc/chapt3/topic_practice_ws/build/status_display' returned '1': AMENT_PREFIX_PATH=/home/dfc/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfc/chapt3/topic_practice_ws/install/status_interfaces:/home/dfc/ros2_ws/install/wpr_simulation2:/home/dfc/ros2_ws/install/lidar_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/dfc/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dfc/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dfc/chapt3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/dfc/chapt3/topic_practice_ws/install/status_display
