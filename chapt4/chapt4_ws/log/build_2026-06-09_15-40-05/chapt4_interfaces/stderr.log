@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:13 (rosidel_generate_interfaces):
+  Unknown CMake command "rosidel_generate_interfaces".
+
+[0m
